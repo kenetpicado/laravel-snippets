@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function update(${1:Model}Request \$request, ${1:Model} \$${2:model})
+{
+    \$${2:model}->update(\$request->validated());
+}
+]]></content>
+    <tabTrigger>pf-update</tabTrigger>
+    <scope>source.php</scope>
+    <description>public function update()</description>
+</snippet>

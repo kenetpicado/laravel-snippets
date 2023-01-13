@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function scope${1:Name}($query)
+{
+    return \$query;
+}
+]]></content>
+    <tabTrigger>model-scope</tabTrigger>
+    <scope>source.php</scope>
+    <description>Model Scope</description>
+</snippet>

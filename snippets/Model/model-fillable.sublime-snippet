@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+protected \$fillable = [
+    '${1:name}'
+];
+]]></content>
+    <tabTrigger>model-fillable</tabTrigger>
+    <scope>source.php</scope>
+    <description>Fillable attributes</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+try {
+    \$decrypted = Crypt::decryptString(\$${2:encryptedValue});
+} catch (DecryptException \$e) {
+   ${3://}
+}
+]]></content>
+	<tabTrigger>Crypt::decryptString</tabTrigger>
+	<scope>source.php</scope>
+	<description>Decrypt a value</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function store(${1:Model}Request \$$request)
+{
+    ${1:Model}::create(\$$request->validated());
+}
+]]></content>
+    <tabTrigger>pf-store</tabTrigger>
+    <scope>source.php</scope>
+    <description>public function store()</description>
+</snippet>

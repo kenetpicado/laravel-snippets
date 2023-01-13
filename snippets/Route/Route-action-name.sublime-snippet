@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Route::${1:get}('${2:users}', [${3:UserController}::class, '${4:index}'])->name('${2:users}.${4:index}');
+]]></content>
+    <tabTrigger>Route::action-name</tabTrigger>
+    <scope>source.php</scope>
+    <description>Controller Action Name</description>
+</snippet>

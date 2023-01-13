@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function index()
+{
+    ${1://}
+}
+]]></content>
+    <tabTrigger>pf-index</tabTrigger>
+    <scope>source.php</scope>
+    <description>public function index()</description>
+</snippet>

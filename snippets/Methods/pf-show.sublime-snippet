@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function show(${1:Model} \$${2:model})
+{
+    \${3://}
+}
+]]></content>
+    <tabTrigger>pf-show</tabTrigger>
+    <scope>source.php</scope>
+    <description>public function show()</description>
+</snippet>

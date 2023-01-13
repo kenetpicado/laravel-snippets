@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function create()
+{
+    return view('${1:users}.create');
+}
+]]></content>
+    <tabTrigger>pf-create</tabTrigger>
+    <scope>source.php</scope>
+    <description>public function create()</description>
+</snippet>

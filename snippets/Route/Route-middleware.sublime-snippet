@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Route::middleware(['${1:first}', '${2:second}'])->group(function () {
+    ${3://}
+});
+]]></content>
+    <tabTrigger>Route::middleware</tabTrigger>
+    <scope>source.php</scope>
+    <description>Route middleware</description>
+</snippet>

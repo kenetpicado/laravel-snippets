@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Route::controller(${1:UserController}::class)->group(function () {
+    Route::get('/${2:users}/{id}', 'index');
+});
+]]></content>
+    <tabTrigger>Route::controller</tabTrigger>
+    <scope>source.php</scope>
+    <description>Route controller.</description>
+</snippet>

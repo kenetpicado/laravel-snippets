@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function destroy(${1:Model} \$${2:model})
+{
+    \$${2:model}->delete();
+}
+]]></content>
+    <tabTrigger>pf-destroy</tabTrigger>
+    <scope>source.php</scope>
+    <description>public function destroy()</description>
+</snippet>

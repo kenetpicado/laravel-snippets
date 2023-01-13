@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Route::${1:get}('${2:users}', ${3:UserController}::class)->name('${2:users}');
+]]></content>
+    <tabTrigger>Route::single-action</tabTrigger>
+    <scope>source.php</scope>
+    <description>Single Action</description>
+</snippet>
